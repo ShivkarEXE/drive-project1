@@ -1,0 +1,25 @@
+{
+  "name": "drive-project1",
+  "version": "1.0.0",
+  "description": "A project that emulates google drive",
+  "homepage": "https://github.com/ShivkarEXE/drive-project1#readme",
+  "bugs": {
+    "url": "https://github.com/ShivkarEXE/drive-project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivkarEXE/drive-project1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}
